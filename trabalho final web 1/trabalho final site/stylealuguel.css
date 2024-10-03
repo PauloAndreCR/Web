@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+    background-image: url(casabackaluguel.png);
+  }
+  header {
+    background-color: rgb(211, 211, 211);
+    color: white; 
+    padding: 10px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    left: 0;
+  }
+  .header img {
+   margin-left: 1%;
+  }
+  button {
+    background-color: rgb(211, 211, 211); 
+    color: black; 
+    border: none; 
+    height: 50px;
+    width: 180px;
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin-right: 10px; 
+    cursor: pointer; 
+    font-size: 9pt;
+    font-family: verdana;
+    transition: transform 200ms ease-in-out;
+    box-shadow: 0px 1px 0px black;
+  }
+  .right-button {
+    margin-right: 0; 
+    margin-left: 350px; 
+  }
+  button:hover{
+    background-color: rgb(107, 106, 106);
+    transform: scale(1.10);
+  }
+  .right-button a{
+    text-decoration: none;
+    display: block;
+    color: black;
+  }
+  main{
+    background-color: #dddde3;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 70px;
+  }
+  .escrv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: arial;
+    font-size: 30px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: fit-content;
+   padding-top: 5px;
+   flex-wrap:wrap;
+   margin:auto;
+   overflow: hidden;
+  }
+  .container div {
+   color: black;
+   margin: 28px;
+   width: 22vw;
+   height: 25vw;
+   background-color: #aeadad;
+   border-radius: 5px;
+   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.500);
+   text-align: center;
+   overflow: hidden;
+  }
+  .container div > img {
+   width: 100%;
+   height: 260px;
+   border-radius: 5px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   overflow: hidden;
+  }
+  .container2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: fit-content;
+   padding-top: 5px;
+   flex-wrap:wrap;
+   margin:auto;
+   overflow: hidden;
+  }
+  .container2 div {
+   color: black;
+   margin: 28px;
+   width: 22vw;
+   height: 25vw;
+   background-color: #aeadad;
+   border-radius: 5px;
+   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.500);
+   text-align: center;
+   overflow: hidden;
+  }
+  .container2 div > img {
+   width: 100%;
+   height: 260px;
+   border-radius: 5px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   overflow: hidden;
+  }
+  #footer1 {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.473) ;
+    color:black;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1000;
+  }
+  .venda{
+    color: red;
+  }
+  footer{
+    background: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .venda-button{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.aluguel-button{
+  text-decoration: none;
+    color: black;
+    display: block;
+}
+#estado{
+    position: relative;
+    top: -30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #d3d3d3;
+  }
+@media (max-width: 1200px) {
+    .right-button {
+        margin-left: 200px;
+    }
+    .container div, .container2 div {
+        width: 30vw;
+        height: 35vw;
+    }
+}
+@media (max-width: 992px) {
+    .right-button {
+        margin-left: 100px;
+    }
+    button {
+        width: 140px;
+    }
+    .container div, .container2 div {
+        width: 40vw;
+        height: 45vw;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .container div, .container2 div {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+    .header img {
+        margin-left: 0;
+    }
+    button {
+        height: 40px;
+        font-size: 8pt;
+    }
+    .right-button {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .escrv {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .container div, .container2 div {
+        width: 100%;
+        height: auto;
+    }
+    .enviar {
+        height: 35px;
+    }
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  html{
+    background-image: url(Design\ sem\ nome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+  }
+  body {
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 600px;
+    height: 700px;
+  }
+  .imagem{
+    opacity: 0.7;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 14pt;
+    width: 450px;
+    font-family: verdana;
+    box-shadow: 1px 1px 1px black;
+  }
+  .form:hover{
+    background-color: rgb(212, 208, 208);
+  }
+  .botao1{
+    background: rgb(255, 255, 255);
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+  }
+  .botao2{
+    background: snow;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px black;
+  }
+  .botao1:hover{
+    background-color: #999999;
+  }
+  .botao2:hover{
+    background-color: #999999;
+  }
+  img{
+    width: 600px;
+    height: 290px;
+  }
+  #footer1 {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(128, 128, 128, 0.473) ;
+    color:black;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1000;
+  }
+@media (max-width: 768px) {
+    .form {
+        font-size: 12pt;
+    }
+    .botao1, .botao2 {
+        width: 80px;
+        height: 25px;
+    }
+}
+@media (max-width: 480px) {
+    #formulario {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .form {
+        width: 100%;
+        padding: 10px;
+    }
+    .botao1, .botao2 {
+        width: 100px;
+        height: 30px;
+        margin-left: 0;
+    }
+    .botao2 {
+        margin-top: 10px;
+    }
+}
