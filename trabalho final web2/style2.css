@@ -336,7 +336,13 @@ body,html{
         font-size: 20pt;
         position: absolute;
     }
-    .email, .senha {
+    .email{
+        width: 450px;
+        height: 60px;
+        font-size: 16pt;
+        position: absolute;
+    }
+    .senha {
         width: 450px;
         height: 60px;
         font-size: 16pt;
@@ -361,5 +367,28 @@ body,html{
         position: absolute;
         right: -6.2%;
         bottom: -20%;
+    }
+}
+@media(max-width: 1920px){
+    .email{
+        position: relative;
+        right: 7%;
+    }
+    .senha{
+        position: relative;
+        right: 7%;
+    }
+    .login{
+        position: relative;
+        right: -5.5%;
+        top: 20px;
+        font-size: 60pt;
+    }
+    .container-checkbox{
+        position: relative;
+    }
+    .esq{
+        position: relative;
+        left: 10.7%;
     }
 }
