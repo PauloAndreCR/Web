@@ -26,3 +26,13 @@ inputFile.addEventListener("change", function (e) {
     pictureImage.innerHTML = pictureImageTxt;
   }
 });
+
+function mensage(){
+  alert('Você cadastou este imóvel')
+  recarregarPagina();
+}
+
+
+function recarregarPagina() {
+  location.reload();
+}
