@@ -1,0 +1,182 @@
+body{
+    background-color:rgb(247, 247, 247) ;
+}
+/* Parte de cima--------------------------------------------------------------------------- */
+#Header {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.BtnLogo:hover{
+    size: 15px;
+    transition: 0.5s;
+}
+
+#Login:hover{
+    background-color: #b29146;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Home:hover{
+    background-color: #193454;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#AgendarVisita:hover{
+    background-color: #b29146;
+    font-size: 23px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Endereço:hover{
+    background-color: #b29146;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Logo{
+    font-weight: bold;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#193454;
+    text-decoration: none;
+}
+
+#Header ul {
+    display: flex;
+    align-items: center;
+}
+
+#Header ul li {
+    list-style: none;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+#Header ul li a{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+
+#Logo Span{
+    color: #b29146;
+}
+
+#imgLogin{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    margin-right: 10px;
+}
+
+#Login{
+    margin-right: 200px;
+    color: #193454;
+}
+
+#Home{
+    color: #b29246;
+}
+
+#Contatos{
+    color: #193454;
+}
+
+#AgendarVisita{
+    color: #193454;
+    display: flex;
+}
+
+#Endereço{
+    color: #193454;
+}
+
+/* Parte do Meio-------------------------------------- */
+
+.section{
+    padding: 0 10rem 0 10rem;
+}
+
+.section h1{
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 3rem ;
+    margin-top: 3rem;
+}
+
+#containerForm{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    padding: 2rem;
+    width: 50rem;
+    height: auto;
+}
+
+form h3{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.section #containerForm .map{
+    width: 100%;
+    flex: 1.45rem;
+    object-fit: cover;
+}
+
+.inputForm input{
+    width: 100%;
+    padding: 1.5rem;  
+    margin: 10px;
+    background:rgb(247, 247, 247) ;
+    border-radius: 10px;
+}
+
+.inputForm{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 0;
+    margin-top: 1rem;
+}
+
+
+
+form button{
+    margin-left: 8px;
+    margin-top: 2rem;
+    background-color: #bda160;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    color: #193454;
+}
+
+form button:hover{
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+
+/* Responsividade */

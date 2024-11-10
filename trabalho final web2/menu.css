@@ -1,0 +1,383 @@
+
+body{
+    background-color:rgb(247, 247, 247) ;
+}
+/* Parte de cima--------------------------------------------------------------------------- */
+#Header {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.BtnLogo:hover{
+    size: 15px;
+    transition: 0.5s;
+}
+
+#Login:hover{
+    background-color: #b29146;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Home:hover{
+    background-color: #193454;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Imóvel:hover{
+    background-color: #b29146;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Endereço:hover{
+    background-color: #b29146;
+    font-size: 25px;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+
+#Logo{
+    font-weight: bold;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#193454;
+    text-decoration: none;
+}
+
+#Header ul {
+    display: flex;
+    align-items: center;
+}
+
+#Header ul li {
+    list-style: none;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+#Header ul li a{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+
+#Logo Span{
+    color: #b29146;
+}
+
+#imgLogin{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    margin-right: 10px;
+}
+
+#Login{
+    margin-right: 200px;
+    color: #193454;
+}
+
+#Home{
+    color: #b29246;
+}
+
+#Contatos{
+    color: #193454;
+}
+
+#Imóvel{
+    color: #193454;
+    display: flex;
+}
+
+#Endereço{
+    color: #193454;
+}
+
+/* Meio do site--------------------------------------------------------------------------------------- */
+
+#Casinha{
+    width: 100%;
+    height: auto;
+    justify-content:center;
+}
+
+#MenuCasa{
+    height: 750px;
+    width: auto;
+    /* border: 1px solid black;  */
+}
+
+.containerMenu{
+    width: 290px;
+    height: 450px;
+    background-color: #314163d5;
+    color: white;
+    margin: auto;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    right: 300px;
+}
+
+.containerTextMenu{
+    width: 250px;
+    height: 380px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    color: white;
+}
+
+.lorem{
+    font-size: 13px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    color: rgb(231, 229, 229);
+    line-height: 19px;
+}
+
+.preco{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.btn{
+    border: 1px solid white;
+    background-color: #314163d5;
+    color: white;
+    width: 180px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.btn:hover{
+    width: 190px;
+    height: 50px;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+/* Conteudo de casas--------------------------------------------------- */
+
+.container{
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container1{
+    width: 900px;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.casas{
+    margin: 10px;
+    display: flex;
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: #193454;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+h2{
+    margin: 10px;
+    font-size: 22px;
+    color: #193454;
+}
+
+h3{
+    color: #193454;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+p{
+    color: #193454;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#casaRuim{
+    width:68%;
+}
+
+.but{
+    /* border: 1px solid black; */
+    background-color: #b29246e0;
+    color: white;
+    width: 180px;
+    height: 40px;
+    display: inline-flex;
+    margin: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#Anuncio{
+    display:block;
+    margin:auto;
+    width: 180px;
+    height: 55px;
+    border: 0px;
+    font-size: 1.06em;
+    border-radius: 10px;
+    background-color: #ac811c;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#Anuncio:hover{
+    transition: 0.5s;
+    font-size: 20px;
+}
+/* Avaliação------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --primary-color:#193454;
+    --primary-color-dark:#1e3d63;
+    --text-dark: #333333;
+    --white:#ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.AV{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.AV1{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-image: url(Img/FundoAV2.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 99vh;
+    display: flex;
+    background-size: contain;
+}
+
+.containerAV{
+    /* border: 1px solid black; */
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+
+.containerAV_esq h1{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--primary-color)
+}
+
+.containerAV_esq h1{
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.containerAV_dir{
+    display: grid;
+    gap: 2rem;
+}
+
+.card{
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img{
+    max-width: 75px;
+    border-radius: 100%;
+}
+
+.card_container{
+    display: flex;
+    gap: 1rem;
+}
+
+.card_container span i{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.card_details p{
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.card_details h4{
+    text-align: right;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+/* Responsividade--------------------------------- */

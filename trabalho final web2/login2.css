@@ -96,6 +96,10 @@ body,html{
     width: 150vh;
     height: 8vb;
 }
+.botao-entrar{
+    text-decoration: none;
+    color: white;
+}
 .botao{
     height: 50px;
     width: 200px;
