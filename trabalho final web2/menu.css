@@ -1,5 +1,4 @@
 
-
 body{
     background-color:rgb(247, 247, 247) ;
 }
@@ -219,7 +218,7 @@ nav {
     margin: auto;
     margin-top: 30px;
     border-radius: 2px;
-    font-size: 12px;
+    font-size: 12px;
     justify-content: center;
     align-items: center;
 }
